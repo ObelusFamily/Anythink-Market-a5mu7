@@ -9,5 +9,13 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
 ## First setup
+So first thing’s first - install Docker
+## Second Step
+Verify docker is ready by running the following commands in your terminal: docker -v and docker-compose -v.
+## Third Step
+Then, run docker-compose up --build from the project root directory to load Anythink's backend and frontend.
+## Fourth Step
+If Docker is working correctly, the backend should be running and able to connect to your local database.
+Let's test this by pointing your browser to http://localhost:3000/api/ping
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
